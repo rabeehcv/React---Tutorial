@@ -12,29 +12,30 @@ React also supports JSX (JavaScript XML), an extension to JavaScript that allows
 
 ## To run a React file in terminal
 1. Install Node.js
-2. Install Create React App:
+2. Install Create React App by any of the following command:
 ```
-npm install -g create-react-app
+npm install -g create-react-app 
 ```
-3. Create a React Application:
+installs the create-react-app package globally on your machine. Once installed, you can create a React app by running the command create-react-app react-app. This method might use an older version of create-react-app if we don't manually update it.
 ```
 npx create-react-app my-react-app
 ```
+Automatically installs the latest version of create-react-app temporarily and uses it to create a new React app.
 Replace "my-react-app" with name of your choice for React application.
 
-4. Navigate to Your React Project:
+3. Navigate to Your React Project:
 ```
 cd my-react-app
 ```
-5. Start the Development Server:
+4. Start the Development Server:
 ```
 npm start
 ```
-6. Make Changes and Save:
+5. Make Changes and Save:
 
  You can now make changes to your React files (usually found in the src directory) using your preferred code editor like Visual studion code. Save the changes, and you should see them reflected in your browser if you're using the development server.
 
-7. Stop the Server:
+6. Stop the Server:
 
 By pressing ' Ctrl + C ' in terminal to stop the development server.
 
