@@ -39,6 +39,15 @@ npm start
 
 By pressing ' Ctrl + C ' in terminal to stop the development server.
 
+
+### To solve web-vital related issue while running the server
+The error "Module not found: Error: Can't resolve 'web-vitals'" is because of missing web-vitals package, make sure the web-vitals package is installed.
+To install the web-vitals, just run the following command in the root directory of the project and re-run the server
+```
+npm install --save-dev web-vitals
+```
+
+
 # Features of React
 ##  **Props (Properties):**
 Props are a way to pass data from a parent component to a child component. They are similar to function arguments in JavaScript.
